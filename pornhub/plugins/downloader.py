@@ -203,7 +203,7 @@ async def get_video(c: Client, q: CallbackQuery):
                 thumb="downloads/src/pornhub.jpeg",
                 width=1280,
                 height=720,
-                caption="The content you requested has been successfully downloaded!",
+                caption=file,
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
