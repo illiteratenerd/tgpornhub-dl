@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: phtgdl
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python3 -m pornhub
+    repo: https://github.com/render-examples/docker.git # optional
